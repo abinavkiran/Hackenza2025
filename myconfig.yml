@@ -1,0 +1,8 @@
+module: easymocap.smplmodel.body_model.SMPLlayer
+args:
+  model_path: /path/to/your/smpl/models
+  model_type: smpl
+  gender: neutral
+  use_pose_blending: true
+  use_shape_blending: true
+  use_joints: true

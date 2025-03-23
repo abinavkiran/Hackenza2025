@@ -1,0 +1,10 @@
+module: easymocap.bodymodel.smplx
+args:
+  gender: neutral
+  model_path: data/bodymodels/smplx
+  model_type: smplx
+  use_pca: false
+  use_face_contour: false
+  num_pca_comps: 12
+  flat_hand_mean: true
+  # ext: pkl # use npz for SMPLX

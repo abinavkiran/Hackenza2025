@@ -1,0 +1,9 @@
+module: "easymocap.smplmodel.body_model.SMPLlayer"
+args:
+  model_path: "data/bodymodels/SMPL_python_v.1.1.0/smpl/models/basicmodel_neutral_lbs_10_207_0_v1.1.0.pkl"
+  model_type: "smpl"
+  gender: "neutral"
+  device: "cuda"
+  regressor_path: "data/smplx/J_regressor_body25.npy"
+  use_pose_blending: True
+  use_shape_blending: True
